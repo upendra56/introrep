@@ -1,0 +1,20 @@
+ AKIAUKSPQ24PQIK3YMEJ
+6dxbCld8pAuE+0xF9ggr4+YfTEQWC+3mnIOpmwJu
+
+{
+  "Id": "Policy1648565878356",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1648565871168",
+      "Action": "s3:*",
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::mbucket125",
+      "Principal": {
+        "AWS": [
+          "34.90.90.90"
+        ]
+      }
+    }
+  ]
+}
